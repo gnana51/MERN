@@ -30,7 +30,9 @@ let b1=num1;
 b1=10;
 console.log(num1);
 console.log(b1);
+
 console.log("non primitives");
+//pass by refernce
 let obj1=
 {
     name:'abc',
@@ -41,6 +43,8 @@ let obj2=obj1;
 obj2.name='gnana';
 console.log(obj1.name);
 
+
+//Functions
 console.log("functions")
 function mul(a,b)
 {
@@ -64,5 +68,6 @@ console.log(5=='5')//checks values
 console.log(5==='5')//checks datatypes ,gives false
 
 //arrays
-
 console.log("Arrays")//heterogenous elements
+let array=[1,"gnana","46"];
+console.log(array);
